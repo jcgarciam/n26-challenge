@@ -1,0 +1,20 @@
+# n26-challenge
+n26-challenge
+
+SpringBoot application exposing 2 rest endpoint 
+
+POST /transaction  
+{  
+ "amount" : 12.3,  
+ "timestamp" : 1478192204000   
+}
+
+GET /statistics
+
+{  
+  "sum": 1000,  
+  "avg": 100,  
+  "max": 200,  
+  "min": 50,  
+  "count": 10  
+}
